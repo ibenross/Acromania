@@ -1,5 +1,16 @@
+document.addEventListener("mouseup", function(event) {
+  const selectedText = window.getSelection().toString().trim();
+  console.log("Selected text:", selectedText);
+
+  if (selectedText !== "") {
+    // Send a message to the background script with the selected text
+    chrome.runtime.sendMessage({ action: "highlightedText", text: selectedText });
+  }
+});
+
 
 const port = chrome.runtime.connect({ name: 'content-script' });
+
 
 document.addEventListener('mouseup', function (event) {
   const selection = window.getSelection().toString().trim();
