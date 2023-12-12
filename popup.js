@@ -602,6 +602,120 @@ document.addEventListener("DOMContentLoaded", function() {
                   },
                   "HTML5": {
                     "definition": "Hypertext"
+                  },
+                  "AFAIK": {
+                    "definition": "As Far As I Know"
+                  },
+                  "AMA": {
+                    "definition": "Ask Me Anything"
+                  },
+                  "BFF": {
+                    "definition": "Best Friends Forever"
+                  },
+                  "DM": {
+                    "definition": "Direct Message"
+                  },
+                  "ETA": {
+                    "definition": "Estimated Time of Arrival"
+                  },
+                  "FAQ": {
+                    "definition": "Frequently Asked Questions"
+                  },
+                  "FB": {
+                    "definition": "Facebook"
+                  },
+                  "FTW": {
+                    "definition": "For The Win"
+                  },
+                  "FOMO": {
+                    "definition": "Fear Of Missing Out"
+                  },
+                  "FWIW": {
+                    "definition": "For What It's Worth"
+                  },
+                  "FYI": {
+                    "definition": "For Your Information"
+                  },
+                  "GTG": {
+                    "definition": "Got To Go"
+                  },
+                  "ICYMI": {
+                    "definition": "In Case You Missed It"
+                  },
+                  "IDK": {
+                    "definition": "I Don't Know"
+                  },
+                  "IMHO": {
+                    "definition": "In My Humble Opinion"
+                  },
+                  "IMO": {
+                    "definition": "In My Opinion"
+                  },
+                  "IRL": {
+                    "definition": "In Real Life"
+                  },
+                  "ISO": {
+                    "definition": "In Search Of"
+                  },
+                  "JK": {
+                    "definition": "Just Kidding"
+                  },
+                  "LMAO": {
+                    "definition": "Laughing My Ass Off"
+                  },
+                  "NSFW": {
+                    "definition": "Not Safe For Work"
+                  },
+                  "OMG": {
+                    "definition": "Oh My God"
+                  },
+                  "ROFL": {
+                    "definition": "Rolling On the Floor Laughing"
+                  },
+                  "SMH": {
+                    "definition": "Shaking My Head"
+                  },
+                  "TBA": {
+                    "definition": "To Be Announced"
+                  },
+                  "TGIF": {
+                    "definition": "Thank God It's Friday"
+                  },
+                  "TL;DR": {
+                    "definition": "Too Long; Didn't Read"
+                  },
+                  "TMI": {
+                    "definition": "Too Much Information"
+                  },
+                  "TTYL": {
+                    "definition": "Talk To You Later"
+                  },
+                  "YOLO": {
+                    "definition": "You Only Live Once"
+                  },
+                  "WIP": {
+                    "definition": "Work In Progress"
+                  },
+                  "WTF": {
+                    "definition": "What The F***"
+                  },
+                  "YMMV": {
+                    "definition": "Your Mileage May Vary"
+                  },
+                  "BTW": {
+                    "definition": "By The Way"
+                  },
+                  "BRB": {
+                    "definition": "Be Right Back"
+                  },
+                  "DIY": {
+                    "definition": "Do It Yourself"
+                  },
+                  "VIP": {
+                    "definition": "Very Important Person"
+                  },
+                  "LOL": {
+                    "definition": "Laugh Out Loud"
                   }    
         };
         const ai = highlightedText.toUpperCase();
