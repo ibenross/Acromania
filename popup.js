@@ -82,10 +82,11 @@ document.addEventListener("DOMContentLoaded", function() {
         // Entry not found in the dictionary
         const resultElement = document.getElementById("result");
         
-        const aiDict ={
-                "HTML": {
-                  "definition": "Hypertext Markup Language"
-                },
+        const aiDict = {
+            "HTML":
+              {
+                "definition": "Hypertext Markup Language"
+              },
                 "CSS": {
                   "definition": "Cascading Style Sheets"
                 },
@@ -604,12 +605,12 @@ document.addEventListener("DOMContentLoaded", function() {
                   }    
         };
         const ai = highlightedText.toUpperCase();
-        const aiGeneratedDefinition = dictionary[ai];
+        const aiGeneratedDefinition = aiDict[ai];
 
         if (aiGeneratedDefinition) {
             resultElement.innerHTML = `
                 <h2><strong>${highlightedText}</strong></h2>
-                <p><b>AI-Generated Definition:</b> ${aiGeneratedDefinition}</p>
+                <p><b>AI-Generated Definition:</b> ${aiGeneratedDefinition.definition}</p>
             `;
         }
         else {
