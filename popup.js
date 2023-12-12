@@ -75,6 +75,861 @@ document.addEventListener("DOMContentLoaded", function() {
             "LOB": "DAS",
             "definition": "Liability Mangement"
           },
+        "DC":
+          {
+            "type": "acronym",
+            "LOB": "GCIB",
+            "definition": "Deal Central"
+          },
+        "HY":
+          {
+            "type": "acronym",
+            "LOB": "GCIB",
+            "definition": "High Yield"
+          },
+        "FIX":
+          {
+            "type": "acronym",
+            "LOB": "enterprise",
+            "definition": "Financial Information Exchange - Internet Protocol"
+          },
+        "ACH":
+          {
+            "type": "acronym",
+            "LOB": "enterprise",
+            "definition": "Automated Clearing House"
+          },
+        "BCP":
+          {
+            "type": "acronym",
+            "LOB": "enterprise",
+            "definition": "Business Continuity Plan"
+          },
+        "CD":
+          {
+            "type": "acronym",
+            "LOB": "enterprise",
+            "definition": "Certificate of Deposit"
+          },
+        "E-BANKING":
+          {
+            "type": "acronym",
+            "LOB": "enterprise",
+            "definition": "Electronic Banking"
+          },
+        "FACTA":
+          {
+            "type": "acronym",
+            "LOB": "government",
+            "definition": "Fair and Accurate Credit Transaction Act"
+          },
+        "GAO":
+          {
+            "type": "acronym",
+            "LOB": "government",
+            "definition": "U.S. Government Accountability Office"
+          },
+        "HELOC":
+          {
+            "type": "acronym",
+            "LOB": "retail / preferred",
+            "definition": "Home Equity Line of Credit"
+          },
+        "ACH": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Automated Clearing House"
+          },
+        "AFS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Available for Sale"
+          },
+        "ALCO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Asset/Liability Committee"
+          },
+        "ALLL": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Allowance for Loan and Lease Losses"
+          },
+        "ALM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Asset/Liability Management"
+          },
+        "AML": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Anti-Money Laundering Act"
+          },
+        "APO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Army Post Office"
+          },
+        "APR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Annual Percentage Rate"
+          },
+        "APT": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Asset Protection Trust"
+          },
+        "APY": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Annual Percentage Yield"
+          },
+        "ARM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Access Request Manager"
+          },
+        "ATM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Automated Teller Machine"
+          },
+        "ATR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Ability to Repay"
+          },
+        "BCP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Business Continuity Plan"
+          },
+        "BOFA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Bank of America"
+          },
+        "BHC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Bank Holding Company"
+          },
+        "BOLI": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Bank Owned Life Insurance"
+          },
+        "BSA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Bank Secrecy Act"
+          },
+        "CD": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Certificate of Deposit"
+          },
+        "CDD": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Customer Due Diligence"
+          },
+        "CERCLA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Comprehensive Environmental Response, Compensation, and Liability Act"
+          },
+        "CFPB": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Consumer Finance Protection Bureau"
+          },
+        "CFR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Code of Federal Regulations"
+          },
+        "CFTC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "U.S. Commodity Futures Trading Commission"
+          },
+        "CIF": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Customer Information File"
+          },
+        "CIP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Customer Identification Program"
+          },
+        "CRA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Community Reinvestment Act"
+          },
+        "CRA File": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Community Reinvestment Act File"
+          },
+        "CTR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Currency Transaction Report"
+          },
+        "DDA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Demand Deposit Account"
+          },
+        "DIFS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Department of Insurance and Financial Services"
+          },
+        "DSC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Debt Service Coverage"
+          },
+        "DTI": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Debt-to-Income"
+          },
+        "E-cash": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Electronic Cash"
+          },
+        "ECOA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Equal Credit Opportunity Act"
+          },
+        "EDD": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Enhanced Due Diligence"
+          },
+        "EFT": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Electronic Funds Transfer"
+          },
+        "EIC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Examiner In Charge"
+          },
+        "EIN": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Employer Identification Number"
+          },
+        "EPA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Environmental Protection Agency"
+          },
+        "ESA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Environmental Site Assessment"
+          },
+        "FACTA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Fair and Accurate Credit Transaction Act"
+          },
+        "FAQ": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Frequently Asked Question"
+          },
+        "FAS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Accounting Standards"
+          },
+        "FASB": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Accounting Standards Board"
+          },
+        "FBI": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Bureau of Investigation"
+          },
+        "FBO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Foreign Banking Organization"
+          },
+        "FCRA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Fair Credit Reporting Act"
+          },
+        "FDIC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Deposit Insurance Corporation"
+          },
+        "FED": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Reserve Bank"
+          },
+        "FEDWIRE": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Reserve Bank Funds Service"
+          },
+        "FFIEC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Financial Institutions Examination Council"
+          },
+        "FHC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Holding Company"
+          },
+        "FHFA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Housing Finance Agency"
+          },
+        "FHLB": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Home Loan Bank"
+          },
+        "FIL": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Institution Letter"
+          },
+        "FINCEN": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Crimes Enforcement Network"
+          },
+        "FIO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Insurance Office"
+          },
+        "FIRREA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Institutions Reform"
+          },
+        "FMLA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Family and Medical Leave Act"
+          },
+        "FMLMC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Home Loan Mortgage Corporation"
+          },
+        "FMU": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Market Utility"
+          },
+        "FOIA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Freedom of Information Act"
+          },
+        "FRA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Reserve Act"
+          },
+        "FRB": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Reserve Board"
+          },
+        "FRS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Reserve System"
+          },
+        "FSOC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Financial Stability Oversight Council"
+          },
+        "FTC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Federal Trade Commission"
+          },
+        "GAO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "U.S. Government Accountability Office"
+          },
+        "GFE": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Good Faith Estimate"
+          },
+        "GSE": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Government-Sponsored Enterprise"
+          },
+        "HELOC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Home Equity Line of Credit"
+          },
+        "HFS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Held for Sale"
+          },
+        "HIDTA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "High Intensity Drug Trafficking Area"
+          },
+        "HIFCA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "High Intensity Financial Crimes Area"
+          },
+        "HMDA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Home Mortgage Disclosure Act"
+          },
+        "HMDA LAR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Home Mortgage Disclosure Act Loan Application Register"
+          },
+        "HOEPA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Home Ownership and Equity Protection Act"
+          },
+        "HPML": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "High Priced Mortgage Loan"
+          },
+        "HTM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Held to Maturity"
+          },
+        "HUD": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Department of Housing and Urban Development"
+          },
+        "IAT": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "International Automated Clearing House Transaction"
+          },
+        "IG": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Inspector General"
+          },
+        "ILC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Industrial Loan Company"
+          },
+        "IMF": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "International Monetary Fund"
+          },
+        "IOLTA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Interest on Lawyers’ Trust Account"
+          },
+        "IRA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Individual Retirement Account"
+          },
+        "IRR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Interest Rate Risk/Internal Rate of Return"
+          },
+        "IRS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Internal Revenue Service"
+          },
+        "ITM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Interactive Teller Machines"
+          },
+        "JHA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Jack Henry & Associates"
+          },
+        "KYC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Know Your Customer"
+          },
+        "LPO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Loan Production Office"
+          },
+        "LRA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Lender Reserve Account"
+          },
+        "LTV": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Loan-to-Value"
+          },
+        "MICR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Magnetic Ink Character Recognition"
+          },
+        "MLO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Mortgage Loans Officer"
+          },
+        "MLR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Money Laundering Risk"
+          },
+        "MMDA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Money Market Demand Account"
+          },
+        "MOU": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Memorandum of Understanding"
+          },
+        "MPP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Mortgage Purchase Program"
+          },
+        "MSA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Metropolitan Statistical Area"
+          },
+          "MSB": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Money Service Business"
+          },
+        "MSR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Mortgage Servicing Rights"
+          },
+        "MTM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Mark to Market"
+          },
+        "NACHA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "The National Automated Clearing House Association"
+          },
+        "NAICS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "North American Industry Classification System"
+          },
+        "NBFI": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Non-Bank Financial Institution"
+          },
+        "NCUA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "National Credit Union Administration"
+          },
+        "NDIP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Non-deposit Investment Products"
+          },
+        "NFIP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "National Flood Insurance Program"
+          },
+        "NIM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Net Interest Margin"
+          },
+        "NMLS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Nationwide Mortgage Licensing System"
+          },
+        "NOI": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Net Operating Income"
+          },
+        "NOW": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Negotiable Order of Withdrawal"
+          },
+        "NPR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Notice of Proposed Rulemaking"
+          },
+        "NSF": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Nonsufficient Funds"
+          },
+        "OCC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Office of the Comptroller of the Currency"
+          },
+        "OD": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Overdraft"
+          },
+        "ODP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Overdraft Protection"
+          },
+        "OEB": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Office of Employee Benefits"
+          },
+        "OFAC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Office of Foreign Assets Control"
+          },
+        "OFR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Office of Financial Research"
+          },
+        "OMB": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Office of Management and Budget"
+          },
+        "OMWI": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Office of Minority and Women Inclusion"
+          },
+        "OREO": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Other Real Estate Owned"
+          },
+        "PCA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Prompt Corrective Action"
+          },
+        "PCS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Payment, Clearing, and Settlement"
+          },
+        "PEP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Politically Exposed Person"
+          },
+        "POS": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Point-of-Sale"
+          },
+        "QFC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Qualified Financial Contract"
+          },
+        "QM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Qualified Mortgage"
+          },
+        "QRM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Qualified Residential Mortgage"
+          },
+        "RBC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Risk Based Capital"
+          },
+        "RCC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Remotely Created Check"
+          },
+        "RDC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Remote Deposit Capture"
+          },
+        "RESPA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Real Estate Settlement Procedures Act"
+          },
+        "RFPA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Right to Financial Privacy Act"
+          },
+        "ROE": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Report of Examination"
+          },
+        "ROR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Right of Rescission"
+          },
+          "SAFE Act": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Secure and Fair Enforcement for Mortgage Licensing Act"
+          },
+        "SAR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Suspicious Activity Report"
+          },
+        "SBA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Small Business Administration"
+          },
+        "SCRA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Servicemembers Civil Relief Act"
+          },
+        "SDA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Savings Deposit Account"
+          },
+        "SDN": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Specially Designated National"
+          },
+        "SEC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "U.S. Securities and Exchange Commission"
+          },
+        "SIFI": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Systemically Important Nonbank Financial Institution"
+          },
+        "SLHC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Savings and Loan Holding Company"
+          },
+        "SOD": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Summary of Deposits"
+          },
+        "SSN": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Social Security Number"
+          },
+        "TIL": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Truth in Lending or Truth in Lending Disclosure"
+          },
+        "TIN": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Taxpayer Identification Number"
+          },
+        "TISA": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Truth in Savings Act"
+          },
+        "TM": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Treasury Management"
+          },
+        "UBPR": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Uniform Bank Performance Report"
+          },
+        "UCC": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Uniform Commercial Code"
+          },
+        "UDAAP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Unfair, Deceptive or Abusive Acts or Practices"
+          },
+        "YSP": {
+            "type": "acronym",
+            "LOB": "general",
+            "definition": "Yield Spread Premium"
+          },
         "4122":
           {
             "type": "AIT",
@@ -170,6 +1025,30 @@ document.addEventListener("DOMContentLoaded", function() {
             "type": "AIT",
             "name": "ThoughtSpot Cloud",
             "lead": "Hannah Carmeli"
+          },
+        "DEAL ACCOUNTING":
+          {
+            "type": "AIT NAME",
+            "ait": "301",
+            "lead": "Varun Sharma"
+          },
+        "301":
+          {
+            "type": "AIT",
+            "name": "Deal Accounting",
+            "lead": "Varun Sharma"
+          },
+        "DEALER SUPPORT SYSTEM":
+          {
+            "type": "AIT NAME",
+            "ait": "550",
+            "lead": "Navneet Singh"
+          },
+        "550":
+          {
+            "type": "AIT",
+            "name": "Dealer Support System",
+            "lead": "Navneet Singh"
           }
         // Add more key-value pairs as needed
       };
