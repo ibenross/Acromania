@@ -39,6 +39,42 @@ document.addEventListener("DOMContentLoaded", function() {
             "LOB": "GCIB",
             "definition": "Non Permitted Technology"
           },
+          "ILINK":
+          {
+            "type": "acronym",
+            "LOB": "GCIB",
+            "definition": "Investor Link - Deal Central"
+          },
+          "ECM":
+          {
+            "type": "acronym",
+            "LOB": "GCIB",
+            "definition": "Equity Capital Markets"
+          },
+          "DCM":
+          {
+            "type": "acronym",
+            "LOB": "GCIB",
+            "definition": "Debt Capital Markets"
+          },
+          "LEVFIN":
+          {
+            "type": "acronym",
+            "LOB": "GCIB",
+            "definition": "Leverage Finance"
+          },
+          "LMP":
+          {
+            "type": "acronym",
+            "LOB": "DAS",
+            "definition": "Liability Mangement Precedents"
+          },
+          "LM":
+          {
+            "type": "acronym",
+            "LOB": "DAS",
+            "definition": "Liability Mangement"
+          },
         "4122":
           {
             "type": "AIT",
@@ -63,6 +99,78 @@ document.addEventListener("DOMContentLoaded", function() {
             "ait": "73830",
             "lead": "Jon Smith"
           },
+        "DEAL CENTRAL":
+          {
+            "type": "AIT NAME",
+            "ait": "71241",
+            "lead": "Abdul Mohamed Haniffa"
+          },
+        "71241":
+          {
+            "type": "AIT",
+            "name": "Deal Central",
+            "lead": "Abdul Mohamed Haniffa"
+          },
+        "MALAYSIA RENTAS ILINK WEB":
+          {
+            "type": "AIT NAME",
+            "ait": "65126",
+            "lead": "Murali Sivaraman"
+          },
+        "65126":
+          {
+            "type": "AIT",
+            "name": "Malaysia Rentas iLINK Web",
+            "lead": "Murali Sivaraman"
+          },
+        "EQUITY DEAL CENTRAL":
+          {
+            "type": "AIT NAME",
+            "ait": "73830",
+            "lead": "Natasha Lobo"
+          },
+        "73830":
+          {
+            "type": "AIT",
+            "name": "Equity Deal Central",
+            "lead": "Natash Lobo"
+          },
+        "LEVFIN DEAL CENTRAL":
+          {
+            "type": "AIT NAME",
+            "ait": "73841",
+            "lead": "Srishti Pithadia"
+          },
+        "73841":
+          {
+            "type": "AIT",
+            "name": "LevFin Deal Central",
+            "lead": "Srishti Pithadia"
+          },
+        "EDP THOUGHTSPOT":
+          {
+            "type": "AIT NAME",
+            "ait": "73259",
+            "lead": "Cheryl Wilson"
+          },
+        "73259":
+          {
+            "type": "AIT",
+            "name": "EDP ThoughtSpot",
+            "lead": "Cheryl Wilson"
+          },
+        "THOUGHTSPOT CLOUD":
+          {
+            "type": "AIT NAME",
+            "ait": "73983",
+            "lead": "Hannah Carmeli"
+          },
+        "73983":
+          {
+            "type": "AIT",
+            "name": "ThoughtSpot Cloud",
+            "lead": "Hannah Carmeli"
+          }
         // Add more key-value pairs as needed
       };
 
