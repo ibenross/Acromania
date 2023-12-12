@@ -12,31 +12,31 @@ document.addEventListener("DOMContentLoaded", function() {
         "HTML":
           {
             "type": "acronym",
-            "group": "enterprise",
+            "LOB": "enterprise",
             "definition": "Hypertext Markup Language"
           },
         "CSS":
           {
             "type": "acronym",
-            "group": "enterprise",
+            "LOB": "enterprise",
             "definition": "Cascading Style Sheets"
           },
         "RISE":
           {
             "type": "acronym",
-            "group": "GCIB",
+            "LOB": "GCIB",
             "definition": "Risk Integration & Support Environment"
           },
         "ADSF":
           {
             "type": "acronym",
-            "group": "GCIB",
+            "LOB": "GCIB",
             "definition": "Application Development Security Framework"
           },
         "NPT":
           {
             "type": "acronym",
-            "group": "GCIB",
+            "LOB": "GCIB",
             "definition": "Non Permitted Technology"
           },
         "4122":
@@ -54,24 +54,35 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add more key-value pairs as needed
       };
 
-      const acronym = dictionary[highlightedText];
-      const meaningType = acronym["type"]
+      const entry = dictionary[highlightedText];
 
-      // Update the HTML in popup.html
-      const acronymElement = document.getElementById("acronymType");
-      acronymElement.textContent = `Type: '${meaningType}'`
-      if (meaningType == "acronym") {
+      if (entry) {
+        // Check the type and fill out the HTML accordingly
         const resultElement = document.getElementById("result");
-        const meaning = acronym["definition"]
-        resultElement.textContent = `Meaning of '${highlightedText}': ${meaning || 'Not found'}`;
-      }
 
-      else {
-        const teamLead = acronym["lead"]
+        if (entry.type === "acronym") {
+          resultElement.innerHTML = `
+            <h2><strong>${highlightedText}</strong></h2>
+            <p><b>Type:</b> ${entry.type}</p>
+            <p><b>LOB:</b> ${entry.LOB}</p>
+            <p><b>Definition:</b> ${entry.definition}</p>
+          `;
+        } else if (entry.type === "AIT") {
+          resultElement.innerHTML = `
+            <h2><strong>${highlightedText}</strong></h2>
+            <p><b>Type:</b> ${entry.type}</p>
+            <p<b>>Name:</b> ${entry.name}</p>
+            <p><b>Lead:</b> ${entry.lead}</p>
+          `;
+        } else {
+          // Handle other types as needed
+          resultElement.textContent = "Unknown type";
+        }
+      } else {
+        // Entry not found in the dictionary
         const resultElement = document.getElementById("result");
-        resultElement.textContent = `Lead of '${highlightedText}': ${teamLead || 'Not found'}`;
+        resultElement.textContent = `No information found for '${highlightedText}'`;
       }
-
     } else {
       // If backgroundPage is undefined, handle the error
       console.error("Background page is undefined. Make sure your background.js is correct.");
