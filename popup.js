@@ -43,14 +43,26 @@ document.addEventListener("DOMContentLoaded", function() {
           {
             "type": "AIT",
             "name": "STORM",
-            "lead": "Jon Smith"
+            "lead": "Varun Sharma"
           },
         "73830":
           {
             "type": "AIT",
             "name": "EQDC",
             "lead": "Jon Smith"
-          }
+          },
+        "GCMT STORM":
+          {
+            "type": "AIT NAME",
+            "ait": "4122",
+            "lead": "Varun Sharma"
+          },
+        "EQDC":
+          {
+            "type": "AIT NAME",
+            "ait": "73830",
+            "lead": "Jon Smith"
+          },
         // Add more key-value pairs as needed
       };
 
@@ -71,10 +83,19 @@ document.addEventListener("DOMContentLoaded", function() {
           resultElement.innerHTML = `
             <h2><strong>${highlightedText}</strong></h2>
             <p><b>Type:</b> ${entry.type}</p>
-            <p<b>>Name:</b> ${entry.name}</p>
+            <p><b>Name:</b> ${entry.name}</p>
             <p><b>Lead:</b> ${entry.lead}</p>
           `;
-        } else {
+        }
+        else if (entry.type === "AIT NAME") {
+            resultElement.innerHTML = `
+              <h2><strong>${highlightedText}</strong></h2>
+              <p><b>Type:</b> ${entry.type}</p>
+              <p><b>AIT Number:</b> ${entry.ait}</p>
+              <p><b>Lead:</b> ${entry.lead}</p>
+            `;
+          }
+         else {
           // Handle other types as needed
           resultElement.textContent = "Unknown type";
         }
