@@ -988,7 +988,7 @@ document.addEventListener("DOMContentLoaded", function() {
           {
             "type": "AIT",
             "name": "Equity Deal Central",
-            "lead": "Natash Lobo"
+            "lead": "Natasha Lobo"
           },
         "LEVFIN DEAL CENTRAL":
           {
@@ -1059,25 +1059,24 @@ document.addEventListener("DOMContentLoaded", function() {
         // Check the type and fill out the HTML accordingly
         const resultElement = document.getElementById("result");
 
+        
         if (entry.type === "acronym") {
           resultElement.innerHTML = `
-            <h2><strong>${highlightedText}</strong></h2>
-            <p><b>Type:</b> ${entry.type}</p>
+            <h2><strong>${highlightedText}: </strong>${entry.definition}</h2>
+            <p id="defType">${entry.type}</p>
             <p><b>LOB:</b> ${entry.LOB}</p>
-            <p><b>Definition:</b> ${entry.definition}</p>
           `;
         } else if (entry.type === "AIT") {
           resultElement.innerHTML = `
-            <h2><strong>${highlightedText}</strong></h2>
-            <p><b>Type:</b> ${entry.type}</p>
-            <p><b>Name:</b> ${entry.name}</p>
+            <h2><strong>${highlightedText}:</strong> ${entry.name}</h2>
+            <p id="defType">${entry.type}</p>
             <p><b>Lead:</b> ${entry.lead}</p>
           `;
         }
         else if (entry.type === "AIT NAME") {
             resultElement.innerHTML = `
               <h2><strong>${highlightedText}</strong></h2>
-              <p><b>Type:</b> ${entry.type}</p>
+              <p id="defType">${entry.type}</p>
               <p><b>AIT Number:</b> ${entry.ait}</p>
               <p><b>Lead:</b> ${entry.lead}</p>
             `;
