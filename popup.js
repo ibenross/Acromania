@@ -49,19 +49,22 @@ document.addEventListener("DOMContentLoaded", function() {
           {
             "type": "acronym",
             "LOB": "GCIB",
-            "definition": "Equity Capital Markets"
+            "definition": "Equity Capital Markets",
+            "description": "The financial market where financial instruments representing ownership in companies (equity) are bought and sold"
           },
           "DCM":
           {
             "type": "acronym",
             "LOB": "GCIB",
-            "definition": "Debt Capital Markets"
+            "definition": "Debt Capital Markets",
+            "description": "The financial market where debt instruments, such as bonds, are bought and sold"
           },
           "LEVFIN":
           {
             "type": "acronym",
             "LOB": "GCIB",
-            "definition": "Leverage Finance"
+            "definition": "Leverage Finance",
+            "description": "Involves the use of various financial instruments and techniques to provide funding to companies with high levels of debt or those seeking to increase their leverage"
           },
           "LMP":
           {
@@ -85,7 +88,8 @@ document.addEventListener("DOMContentLoaded", function() {
           {
             "type": "acronym",
             "LOB": "GCIB",
-            "definition": "High Yield"
+            "definition": "High Yield",
+            "description": "Bonds with lower credit ratings that offer higher yields but also come with higher risk"
           },
         "FIX":
           {
@@ -193,7 +197,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "ATM": {
             "type": "acronym",
             "LOB": "general",
-            "definition": "Automated Teller Machine"
+            "definition": "Automated Teller Machine",
+            "description": "A self-service machine that allows users to perform basic banking transactions, such as withdrawing cash or checking account balances"
           },
         "ATR": {
             "type": "acronym",
@@ -228,7 +233,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "CD": {
             "type": "acronym",
             "LOB": "general",
-            "definition": "Certificate of Deposit"
+            "definition": "Certificate of Deposit",
+            "description": "A time deposit with a fixed term, commonly issued by banks, and pays higher interest than regular savings accounts"
           },
         "CDD": {
             "type": "acronym",
@@ -318,7 +324,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "EFT": {
             "type": "acronym",
             "LOB": "general",
-            "definition": "Electronic Funds Transfer"
+            "definition": "Electronic Funds Transfer",
+            "description": "The electronic transfer of money from one bank account to another, encompassing various online and electronic payment method"
           },
         "EIC": {
             "type": "acronym",
@@ -623,7 +630,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "MLR": {
             "type": "acronym",
             "LOB": "general",
-            "definition": "Money Laundering Risk"
+            "definition": "Money Laundering Risk",
+            "description": "The potential exposure or vulnerability of an entity or financial system to the risk of money laundering activities"
           },
         "MMDA": {
             "type": "acronym",
@@ -1058,27 +1066,29 @@ document.addEventListener("DOMContentLoaded", function() {
       if (entry) {
         // Check the type and fill out the HTML accordingly
         const resultElement = document.getElementById("result");
-
+        
         
         if (entry.type === "acronym") {
+          const description = entry.description ? `<p id="description">${entry.description}</p>` : '';
           resultElement.innerHTML = `
             <h2><strong>${highlightedText}: </strong>${entry.definition}</h2>
             <p id="defType">${entry.type}</p>
-            <p><b>LOB:</b> ${entry.LOB}</p>
+            <p id="description"><b>LOB:</b> ${entry.LOB}</p>
+            ${description}
           `;
         } else if (entry.type === "AIT") {
           resultElement.innerHTML = `
             <h2><strong>${highlightedText}:</strong> ${entry.name}</h2>
             <p id="defType">${entry.type}</p>
-            <p><b>Lead:</b> ${entry.lead}</p>
+            <p id="description"><b>Lead:</b> ${entry.lead}</p>
           `;
         }
         else if (entry.type === "AIT NAME") {
             resultElement.innerHTML = `
               <h2><strong>${highlightedText}</strong></h2>
               <p id="defType">${entry.type}</p>
-              <p><b>AIT Number:</b> ${entry.ait}</p>
-              <p><b>Lead:</b> ${entry.lead}</p>
+              <p id="description"><b>AIT Number:</b> ${entry.ait}</p>
+              <p id="description"><b>Lead:</b> ${entry.lead}</p>
             `;
           }
          else {
